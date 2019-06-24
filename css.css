@@ -1,0 +1,460 @@
+html {
+  width: 1020px;
+  height: 1506px;
+}
+body {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.visualityhidden {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.portfolio, .about {
+  display: inline;
+  position: relative;
+  font-size: 7.21379pt;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  text-align: justify;
+  color: rgba(46, 179, 152, 255);
+  left: 326px;
+  z-index: 1;
+}
+
+
+
+.blog, .getintouch {
+  display: inline;
+  position: relative;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 7.21379pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: justify;
+  left: 580px;
+}
+
+.header {
+  background-color: #323232;
+  left: 0px;
+  top: 0px;
+  width: 1020px;
+  height: 63px;
+}
+
+.main {
+  height: 1062px;
+  width: 1020px;
+}
+
+.main-hedder, .main {
+  padding: 0;
+  margin: 0;
+}
+
+.main-hedder li:first-child {
+  height: 8px;
+  position: relative;
+  top:24px;
+}
+.main-hedder li:last-child {
+  height: 8px;
+  position: relative;
+  top: 16px;
+}
+
+.footer {
+  width: 100%;
+  height: 607px;
+}
+
+.pointy_thingy {
+  position: absolute;
+  left: 420px;
+  top: -117px;
+  width: 180px;
+  height: 206px;
+
+}
+
+.logo {
+  position: absolute;
+  left: 477px;
+  top: 10px;
+  width: 64px;
+  height: 55px;
+}
+
+.hexagon {
+  width: 182px;
+  height: 209px;
+  margin: 4.5px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+}
+
+.hex-layer-1 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hex-layer-2 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(300deg);
+  visibility: visible;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.row-translate {
+  position: absolute;
+  top: 315.5px;
+  left: 14.5px;
+}
+
+.row {
+  min-width: 1020px;
+}
+
+.row-native-1 {
+position: absolute;
+top: 147.5px;
+left: 114.5px;
+}
+
+.row-native-2 {
+position: absolute;
+top: 482.5px;
+left: 114.5px;
+}
+
+.info {
+  position: absolute;
+  top: 784px;
+  width: 1020px;
+  height: 341px;
+  background-color: #2eb398;
+}
+
+.in-touch-form {
+  width: 100%;
+  height: 564px;
+  background-color: #323232;
+}
+
+.in-touch-form legend {
+   border: 0;
+  position: relative;
+ 
+}
+
+.in-touch-form legend:first-child {
+   top: 67px;
+  left: 120px;
+  width: 168px;
+  height: 22px;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 22pt;
+  color: rgba(224, 224, 224, 255);
+  text-align: justify;
+}
+
+.in-touch-form legend:nth-child(2n) {
+  top: 75px;
+  left: 120px;
+  width: 421px;
+  height: 17px;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 13pt;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+}
+
+.input-text {
+  display: block;
+  background-color: #454545;
+  border: 0;
+  position: relative;
+  margin: 16px;
+  width: 576px;
+  height: 40px;
+  top: 79px;
+  left: 104px;
+  padding: 0 2px 0 2px;
+}
+
+.textarea {
+  position: relative;
+  left: 120px;
+  top: 79px;
+  width: 576px;
+  height: 146px;
+  border: 0;
+  background-color: #454545;
+}
+
+.button-submit {
+  position: relative;
+  top: 89px;
+  left: 610px;
+  width: 90px;
+  height: 37px;
+  background-color: #2eb398;
+  border: 0;
+  padding: 0;
+}
+
+.text {
+  position: relative;
+  top:-281px;
+  left: 720px;
+  width: 180px;
+  height: 117px;
+  font-family: 'Lato', Lato-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 11pt;
+  color: rgba(224, 224, 224, 255);
+  text-align: justify;
+}
+
+fieldset {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.line-left {
+  position: absolute;
+  top: 74px;
+  left: 30px;
+  margin: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.line-right {
+  position: absolute;
+  top: 74px;
+  left: 580px;
+  margin: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.rectangle-block {
+  position: relative;
+  top: 683px;
+  left: 33px;
+}
+
+.rectangle-block div {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  margin: -3px;
+  background-color: #ddd2c5;
+}
+.rectangle-block div:nth-child(3n) {
+  background-color: #8b8784;
+}
+
+.line-prof-top {
+  position: absolute;
+  top: 772px;
+  left: 30px;
+  margin:0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.social-networks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 32px;
+}
+
+.social-networks li {
+  display: inline-block;
+  background-color:white;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  margin-right: -10px;
+  position: relative;
+  left: 725px;
+  opacity: 0.2;
+}
+
+.social-networks li i {
+  position: relative;
+  top:4px;
+}
+
+.line-prof-left {
+  position: relative;
+  left: -59px;
+  margin: 0;
+  transform: rotate(90deg);
+  border-left: 0;
+  border-right: 0;
+  top: 170.5px;
+}
+
+.line-prof-right {
+  position: absolute;
+  left: 762px;
+  top: 170.5px;
+  margin: 0;
+  transform: rotate(90deg);
+  border-left: 0;
+  border-right: 0;
+  
+}
+
+.line-getintouch-top {
+  position: absolute;
+  top: 1138px;
+  left: 30px;
+  margin:0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.info .hexagon {
+  position: relative;
+  top: 63.5px;
+  left: 115.5px;
+  width: 180px;
+  height: 206px;
+}
+
+.info .hex-layer-2 {
+  background-image: url(./assets/profileImg.png);
+  background-position: 50%;
+}
+
+.article {
+  height: 341px;
+}
+
+.article h3 {
+  position: absolute;
+  top: 68px;
+  left: 319px;
+  width: 209px;
+  height: 22px;
+  margin: 0;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 21pt;
+  color: rgba(215, 252, 245, 255);
+}
+
+.profile-paragraph-1 {
+  position: absolute;
+  top: 98px;
+  left: 321px;
+  width: 249px;
+  height: 17px;
+  margin: 0;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 13pt;
+  color: rgba(32, 129, 109, 255);
+}
+
+.profile-paragraph-2 {
+  position: absolute;
+  top: 134px;
+  left: 319px;
+  width: 581px;
+  height: 76px;
+  margin: 0;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 12pt;
+  color: rgba(215, 252, 245, 255);
+}
+
+.contacts {
+  list-style: none;
+  font-size: 10pt;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 720px;
+  top: -230px;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(190, 190, 190, 255);
+}
+
+.fas {
+  color: #2eb398;
+}
+
+.contacts a, .contacts span {
+  text-decoration: none;
+  color: rgba(190, 190, 190, 255);
+  position: relative;
+  left: 12px;
+}
+.main-hedder a {
+  text-decoration: none;
+  color: rgba(190, 190, 190, 255);
+
+}
+
+.main-hedder li:first-child span {
+  position: relative;
+  left: 326px;
+  top: 1px;
+  font-size: 10pt;
+  color: #454545;
+}
+
+.main-hedder li:last-child span {
+  position: relative;
+  left: 580px;
+  top: 1px;
+  font-size: 10pt;
+  color: #454545;
+}
+
+a:hover {
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.copyright {
+  position: relative;
+  background-color: #222222;
+  width: 1020px;
+  height: 43px;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 8.65655pt;
+  color: rgba(69, 69, 69, 255);
+}
+
+.copyright span {
+  position: relative;
+  left: 32px;
+  top: 16px;
+  width: 155px;
+  height: 12px;
+}
