@@ -1,0 +1,520 @@
+html {
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.visualityhidden {
+  width: 1px;
+  height: 1px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  overflow: hidden;
+}
+
+.portfolio, .blog {
+  margin-right: 25px;
+}
+
+.about {
+  padding-right: 15%;
+}
+
+.blog {
+  padding-left: 15%;
+}
+
+.portfolio::after ,.blog::after {
+  position: relative;
+  bottom: 2.5px;
+  left: 12.5px;
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: gray;
+  content: "\A";
+}
+
+header {
+  min-width: 1250px;
+  height: 63px;
+  background-color: #323232;
+}
+
+header::after {
+  position: absolute;
+  top: 74px;
+  left: 3%;
+  right: 57%;
+  height: 1px;
+  border-top: 1px solid #e4e9eb;
+  content: "";
+}
+
+header::before {
+  position: absolute;
+  top: 74px;
+  left: 57%;
+  right: 3%;
+  height: 1px;
+  border-top: 1px solid #e4e9eb;
+  content: "";
+}
+
+main {
+  height: 1062px;
+  width: 100%;
+  min-width: 1250px;
+}
+
+.main-hedder {
+  display: flex;
+  list-style: none;
+}
+
+.main-hedder, .main {
+  padding: 0;
+  margin: 0;
+}
+
+.main-hedder li:first-child {
+  position: relative;
+  top: 20.5px;
+  flex: 0 0 50%;
+  font-size: 7.21379pt;
+  z-index: 2;
+  text-align: right;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(46, 179, 152, 255);
+}
+
+.main-hedder li:nth-child(2) {
+  position: absolute;
+  width: 100%;
+  min-width: 1250px;
+}
+
+.main-hedder li:last-child {
+  position: relative;
+  top: 20.5px;
+  flex: 0 0 50%;
+  z-index: 2;
+  text-align: left;
+  font-size: 7.21379pt;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(255, 255, 255, 255);
+}
+
+footer {
+  width: 100%;
+  height: 607px;
+  min-width: 1250px;
+}
+
+footer::before {
+  position: absolute;
+  top: 1138px;
+  left: 30px;
+  right: 30px;
+  height: 1px;
+  border-top: 1px solid rgb(36, 36, 36);
+  content: "";
+}
+
+.pointy-thingy {
+  position: absolute;
+  top: -118px;
+  right: 0;
+  left: 0;
+  width: 180px;
+  height: 206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  width: 64px;
+  height: 55px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hexagon-container {
+  height: 721px;
+}
+
+.hexagon {
+  display: inline-block;
+  width: 182px;
+  height: 209px;
+  margin: 4.5px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hex-layer-1 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hex-layer-2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(300deg);
+  visibility: visible;
+  background: #ccc3;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  margin: 0 auto;  
+}
+
+.row-native-1 {
+  position: relative;
+  top: 89px;
+  width: 795px;
+}
+
+.row-translate {
+  position: relative;
+  top: 36px;
+  left: 13px;
+  width: 1020px;
+}
+  
+.row-native-2 {
+position: relative;
+top: -15px;
+width: 795px;
+}
+
+.info {
+  position: absolute;
+  top: 784px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2eb398;
+}
+
+.info::before {
+  position: absolute;
+  top: -12px;
+  left: 30px;
+  right: 30px;
+  height: 1px;
+  border-top: 1px solid #e4e9eb;
+  content: "";
+}
+
+.in-touch-form {
+  display: inline-block;
+  width: 100%;
+  height: 564px;
+  background-color: #323232;
+}
+
+.in-touch-form legend {
+  margin: 4px 0;
+}
+
+.in-touch-form legend:first-child {
+  width: 168px;
+  height: 22px;
+  padding-left: 120px;
+  padding-top: 63px;
+  margin-top: 0px;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  font-size: 22pt;
+  color: rgba(224, 224, 224, 255);
+}
+
+.in-touch-form legend:nth-child(2n) {
+  padding: 4px 0 0 120px;
+  width: 421px;
+  height: 17px;
+  font-size: 13pt;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(190, 190, 190, 255);
+}
+
+.input-text {
+  display: block;
+  width: 576px;
+  height: 40px;
+  padding: 0 2px 0 14px;
+  margin: 16px 0 0 120px;
+  border: 0;
+  background-color: #454545;
+}
+
+#text-area {
+  padding-top: 13px;
+  height: 146px;
+}
+
+.button-submit {
+  width: 90px;
+  height: 37px;
+  margin-left: 622px;
+  margin-top: 16px;
+  padding: 0;
+  border: 0;
+  color: rgba(215, 252, 245, 255);
+  background-color: #2eb398;
+}
+
+.text {
+  width: 180px;
+  margin-bottom: 46px;
+  font-size: 11pt;
+  font-family: 'Lato', Lato-Regular, AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(224, 224, 224, 255);
+}
+
+fieldset {
+  display: inline-block;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 755px;
+  left: 33px;
+  width: 100px;
+  height: 6px;
+  margin: 0;
+  font-size: 0;
+}
+
+.slider .slider-rectangle {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  margin: 0 3px;
+  background-color: #ddd2c5;
+}
+
+.slider .slider-rectangle:nth-child(3n) {
+  background-color: #8b8784;
+}
+
+.social-networks {
+  position: relative;
+  top: -85px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-networks li {
+  position: relative;
+  left: 725px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: -10px;
+  text-align: center;
+  opacity: 0.2;
+}
+
+.social-networks li i {
+  position: relative;
+  top:4px;
+}
+
+.info .hexagon {
+  position: relative;
+  top: 63.5px;
+  left: 115.5px;
+  width: 180px;
+  height: 206px;
+}
+
+.info .hex-layer-2 {
+  background-image: url(./assets/profileImg.png);
+  background-position: 50%;
+}
+
+article {
+  width: 1000px;
+  height: 341px;
+  margin: 0 auto;
+}
+
+article::before {
+  position: absolute;
+  left: 4%;
+  top: 170.5px;
+  width: 316px;
+  height: 1px;
+  transform: rotate(90deg);
+  border-top: 1px solid rgb(33, 157, 132);
+  content: "";
+}
+
+article::after {
+  position: absolute;
+  right: 4%;
+  top: 170.5px;
+  width: 316px;
+  height: 1px;
+  transform: rotate(90deg);
+  border-top: 1px solid rgb(33, 157, 132);
+  content: "";
+}
+
+article h3 {
+  position: relative;
+  top: -152px;
+  left: 319px;
+  width: 209px;
+  margin: 0;
+  font-size: 21pt;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(215, 252, 245, 255);
+}
+
+.profile-paragraph-1 {
+  position: relative;
+  top: -144px;
+  left: 321px;
+  width: 249px;
+  margin: 0;
+  font-size: 13pt;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(32, 129, 109, 255);
+}
+
+.profile-paragraph-2 {
+  position: relative;
+  top: -124px;
+  left: 319px;
+  width: 581px;
+  margin: 0;
+  font-size: 12pt;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(215, 252, 245, 255);
+}
+
+.facebook {
+  background-color: #7CC1FE;
+}
+
+.twitter {
+  background-color: #AAD7FE;
+}
+
+.google-plus {
+  background-color: #FE7A7A;
+}
+
+.pinterest {
+  background-color: #FE4646;
+}
+
+.linkedin {
+  background-color: #86BAFE;
+}
+
+.dribbble {
+  background-color: #FE5BEE;
+}
+
+.contact-list {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 10pt;
+  list-style: none;
+  font-family: 'Lato', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(190, 190, 190, 255);
+}
+
+.fas {
+  color: #2eb398;
+}
+
+.contacts {
+  position: relative;
+  top: -156px;
+  left: 4px;
+  display: inline-block;
+}
+
+.contact-list a, .contact-list span {
+  position: relative;
+  left: 12px;
+  text-decoration: none;
+  color: rgba(190, 190, 190, 255);
+}
+
+.main-hedder a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(190, 190, 190, 255);
+}
+
+.main-hedder li:first-child span {
+  position: relative;
+  left: 326px;
+  top: 1px;
+  font-size: 10pt;
+  color: #454545;
+}
+
+.main-hedder li:last-child span {
+  position: relative;
+  left: 580px;
+  top: 1px;
+  font-size: 10pt;
+  color: #454545;
+}
+
+a:hover {
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.copyright {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  font-size: 8.65655pt;
+  font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
+  color: rgba(69, 69, 69, 255);
+  background-color: #222222;
+}
+
+.copyright span {
+  position: relative;
+  left: 32px;
+  top: 16px;
+}
