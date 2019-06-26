@@ -44,7 +44,6 @@ body {
 }
 
 header {
-  min-width: 1250px;
   height: 63px;
   background-color: #323232;
 }
@@ -72,7 +71,6 @@ header::before {
 main {
   height: 1062px;
   width: 100%;
-  min-width: 1250px;
 }
 
 .main-hedder {
@@ -99,7 +97,6 @@ main {
 .main-hedder li:nth-child(2) {
   position: absolute;
   width: 100%;
-  min-width: 1250px;
 }
 
 .main-hedder li:last-child {
@@ -116,7 +113,6 @@ main {
 footer {
   width: 100%;
   height: 607px;
-  min-width: 1250px;
 }
 
 footer::before {
@@ -153,11 +149,23 @@ footer::before {
 
 .hexagon-container {
   height: 721px;
+  text-align: center;
 }
 
 .hexagon {
   display: inline-block;
-  width: 182px;
+  width: 160px;
+  height: 209px;
+  margin: 4.5px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hexagon-translate {
+  display: inline-block;
+  width: 160px;
+  max-width: 182px;
   height: 209px;
   margin: 4.5px;
   transform: rotate(120deg);
@@ -193,20 +201,16 @@ footer::before {
 .row-native-1 {
   position: relative;
   top: 89px;
-  width: 795px;
 }
 
 .row-translate {
   position: relative;
-  top: 36px;
-  left: 13px;
-  width: 1020px;
+  top: 19px;
 }
   
 .row-native-2 {
 position: relative;
-top: -15px;
-width: 795px;
+top: -50px;
 }
 
 .info {
@@ -215,7 +219,6 @@ width: 795px;
   left: 0;
   right: 0;
   width: 100%;
-  min-width: 1250px;
   margin-left: auto;
   margin-right: auto;
   background-color: #2eb398;
@@ -357,14 +360,13 @@ fieldset {
 }
 
 article {
-  width: 1000px;
   height: 341px;
   margin: 0 auto;
 }
 
 article::before {
   position: absolute;
-  left: 4%;
+  left: -8%;
   top: 170.5px;
   width: 316px;
   height: 1px;
@@ -375,7 +377,7 @@ article::before {
 
 article::after {
   position: absolute;
-  right: 4%;
+  right: -8%;
   top: 170.5px;
   width: 316px;
   height: 1px;
