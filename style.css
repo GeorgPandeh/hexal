@@ -238,13 +238,8 @@ width: 795px;
   background-color: #323232;
 }
 
-.in-touch-form legend {
-  margin: 4px 0;
-}
-
 .in-touch-form legend:first-child {
   width: 168px;
-  height: 22px;
   padding-left: 120px;
   padding-top: 63px;
   margin-top: 0px;
@@ -254,9 +249,8 @@ width: 795px;
 }
 
 .in-touch-form legend:nth-child(2n) {
-  padding: 4px 0 0 120px;
+  padding: 0 0 0 120px;
   width: 421px;
-  height: 17px;
   font-size: 13pt;
   font-family: 'Maven Pro', AdobeInvisFont, MyriadPro-Regular;
   color: rgba(190, 190, 190, 255);
